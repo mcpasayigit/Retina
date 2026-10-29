@@ -1,0 +1,55 @@
+name: Siteyi kopyala
+
+on:
+  workflow_dispatch:
+    inputs:
+      site_url:
+        description: Kopyalanacak adres
+        default: https://retina-gm.com
+  push:
+    branches: [main]
+    paths:
+      - scripts/mirror.py
+      - .github/workflows/mirror.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Siteyi indir
+        env:
+          SITE_URL: ${{ github.event.inputs.site_url || 'https://retina-gm.com' }}
+          EXPECT_IP: "185.216.113.150"
+        run: python3 scripts/mirror.py
+
+      - name: Repoya kaydet
+        if: always()
+        run: |
+          mkdir -p site report
+          du -sh site || true
+          find site -type f -size +95M -print || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          KB=$(du -sk site | cut -f1)
+          if [ "$KB" -gt 1200000 ]; then
+            echo "::error::site/ klasörü $((KB/1024)) MB, repoya yazılmadı (yalnızca rapor kaydedildi)"
+            git add -A report
+          else
+            git add -A site report
+          fi
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok"
+          else
+            git commit -m "retina-gm.com kopyası $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
