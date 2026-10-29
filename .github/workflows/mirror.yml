@@ -37,6 +37,19 @@ jobs:
           MAX_PAGES: "3000"
           PROGRESS_PUSH: "1"
           PROGRESS_EVERY: "45"
+          # sayfaların JavaScript ile çalışırken ürettiği adresler (dil bayrakları)
+          EXTRA_PATHS: >-
+            /wp-content/plugins/gtranslate/flags/24/ar.png
+            /wp-content/plugins/gtranslate/flags/24/zh-CN.png
+            /wp-content/plugins/gtranslate/flags/24/nl.png
+            /wp-content/plugins/gtranslate/flags/24/en.png
+            /wp-content/plugins/gtranslate/flags/24/fr.png
+            /wp-content/plugins/gtranslate/flags/24/de.png
+            /wp-content/plugins/gtranslate/flags/24/it.png
+            /wp-content/plugins/gtranslate/flags/24/pt.png
+            /wp-content/plugins/gtranslate/flags/24/ru.png
+            /wp-content/plugins/gtranslate/flags/24/es.png
+            /wp-content/plugins/gtranslate/flags/24/tr.png
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

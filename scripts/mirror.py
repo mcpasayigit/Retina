@@ -103,6 +103,7 @@ rest_known = set()              # REST API'nin listelediği adresler
 collisions = []
 oversize = {}
 flags = {}
+empty = {}                      # 0 baytlık gelen dosyalar -> başlıklar
 stats = {"bytes": 0, "pages": 0}
 status_counter = Counter()      # HTTP durum kodu / hata türü -> sayı
 recent = deque(maxlen=12)       # son kaydedilenler (ilerleme raporu için)
@@ -115,6 +116,33 @@ def unq(s):
 
 
 # --------------------------------------------------------------------------- adres işlemleri
+def _dots(path):
+    """'/a/b/../c' -> '/a/c' (RFC 3986 nokta parçalarını çözer; tarayıcıların yaptığı gibi)."""
+    if "." not in path:
+        return path
+    parts = path.split("/")
+    out = []
+    for seg in parts:
+        if seg == "..":
+            if len(out) > 1:
+                out.pop()
+        elif seg != ".":
+            out.append(seg)
+    if parts[-1] in (".", ".."):
+        out.append("")
+    res = "/".join(out)
+    return res if res.startswith("/") else "/" + res
+
+
+def _admin_asset(path):
+    """wp-admin altındaki css/js/görsel gibi statik dosyalar sayfalarca kullanılabilir; php ve sayfalar alınmaz."""
+    low = path.lower()
+    if not low.startswith("/wp-admin/") or re.search(r"\.php(?:/|$)", low) or low.endswith("/"):
+        return False
+    ext = posixpath.splitext(low)[1].lstrip(".")
+    return ext in ASSET_EXT and ext not in ("xml", "json", "txt")
+
+
 def canon(url, base=None):
     """Site içi adresi normalize eder (aynı host/şema, tutarlı kodlama). Site dışıysa None."""
     try:
@@ -123,7 +151,7 @@ def canon(url, base=None):
         s = urllib.parse.urlsplit(url.strip())
         if s.scheme not in ("http", "https") or (s.hostname or "").lower() not in HOSTS:
             return None
-        path = urllib.parse.quote(unq(s.path or "/"), safe=SAFE, errors=ERR)
+        path = urllib.parse.quote(_dots(unq(s.path or "/")), safe=SAFE, errors=ERR)
         return BASE + path + ("?" + s.query if s.query else "")
     except Exception:
         return None
@@ -133,7 +161,7 @@ def plan(c):
     """Normalize adres -> ((anahtar, indirilecek_url, dosya_mı), None) ya da (None, atlama_sebebi)."""
     s = urllib.parse.urlsplit(c)
     path = unq(s.path)
-    if SKIP_RE.search(path):
+    if SKIP_RE.search(path) and not _admin_asset(path):
         return None, "dinamik uç (php / wp-admin / feed / api)"
     if any(ch in path for ch in "*{}<>|^`\\"):
         return None, "şablon/desen (gerçek adres değil)"
@@ -231,6 +259,12 @@ def _fetch_once(url):
                     out["toolarge"] = total
                     return out
                 enc = (resp.headers.get("Content-Encoding") or "").lower()
+                cl = resp.headers.get("Content-Length")
+                if cl and cl.isdigit() and not enc and total != int(cl):
+                    # bağlantı yarıda kesildi: eksik dosya kaydetme, yeniden dene
+                    last = "kesik indirme (beklenen %s bayt, gelen %d)" % (cl, total)
+                    time.sleep(1.5 * (attempt + 1))
+                    continue
                 if enc == "gzip":
                     body = gzip.decompress(body)
                 elif enc == "deflate":
@@ -469,6 +503,13 @@ def handle(task):
         return fail(key, r["error"])
     if r["status"] != 200:
         return fail(key, "HTTP %s" % r["status"])
+    if not r.get("toolarge") and not r["body"] and r["ctype"] not in HTML_TYPES:
+        for _ in range(2):                   # boş geldiyse (geçici olabilir) iki kez daha dene
+            time.sleep(1.5)
+            r2 = fetch(fetch_url)
+            if not r2.get("error") and r2["status"] == 200 and r2["body"]:
+                r = r2
+                break
     if r.get("toolarge"):
         with lock:
             oversize[key] = r["toolarge"]
@@ -498,6 +539,10 @@ def handle(task):
             with lock:
                 results[fkey] = dict(file=rel_final, bytes=len(body), sha256=sha, type=ctype)
                 recent.append((fkey[-90:], len(body), round(time.time() - t_start, 1)))
+                if not body:
+                    hd = r.get("headers") or {}
+                    empty[fkey] = {k: hd.get(k) for k in ("Content-Length", "Content-Type", "Last-Modified")
+                                   if hd.get(k)}
         if rel_orig != rel_final:
             write(rel_orig, stub(fkey) if is_html else body, key)
             with lock:
@@ -754,6 +799,13 @@ def build_report(t0, ips, home_ok):
         add("## Boyut sınırı nedeniyle atlanan dosyalar")
         for k, v in oversize.items():
             add("- %s (%s)" % (k, mb(v)))
+    if empty:
+        add("")
+        add("## Boş (0 bayt) gelen dosyalar (%d)" % len(empty))
+        add("Sunucu bunları boş döndürdü; kaynak sitede de boş olabilir (bozuk yükleme).")
+        for k, hd in sorted(empty.items()):
+            add("- %s  %s" % (k, json.dumps(hd, ensure_ascii=False)))
+    ozet["empty_files"] = dict(sorted(empty.items()))
     if collisions:
         add("")
         add("## Aynı dosya yoluna düşen farklı içerikler (ilki tutuldu)")
@@ -898,6 +950,9 @@ def main():
     rest = rest_seeds()
     rest_known.update(c for c in (canon(u) for u in rest) if c)
     seeds += rest
+    for p in re.split(r"[\s,]+", os.environ.get("EXTRA_PATHS", "").strip()):   # JS'in çalışırken ürettiği adresler vb.
+        if p:
+            seeds.append(BASE + (p if p.startswith("/") else "/" + p))
     print("Tarama başlıyor (%d başlangıç adresi)" % len(seeds), flush=True)
     stop = threading.Event()
     threading.Thread(target=progress_loop, args=(stop,), daemon=True).start()
