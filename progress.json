@@ -1,0 +1,75 @@
+{
+ "saat": "23:55:41 UTC",
+ "gecen_sn": 465,
+ "dosya": 1505,
+ "mb": 375.0,
+ "sayfa": 165,
+ "kuyruk": 0,
+ "calisan": 0,
+ "islenen": 1536,
+ "basarisiz": 29,
+ "yanitlar": {
+  "200": 1508,
+  "404": 28
+ },
+ "son_kaydedilen": [
+  [
+   "https://retina-gm.com/type/gallery/page/4/",
+   75912,
+   3.5
+  ],
+  [
+   "https://retina-gm.com/type/gallery/page/2/",
+   97945,
+   4.2
+  ],
+  [
+   "https://retina-gm.com/type/gallery/page/3/",
+   102991,
+   4.4
+  ],
+  [
+   "https://retina-gm.com/author/admin/page/4/",
+   111508,
+   4.9
+  ],
+  [
+   "https://retina-gm.com/author/admin/page/2/",
+   126554,
+   5.1
+  ],
+  [
+   "https://retina-gm.com/author/admin/page/3/",
+   132822,
+   5.2
+  ]
+ ],
+ "son_basarisiz": [
+  [
+   "retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398.jpg",
+   "HTTP 404"
+  ],
+  [
+   "retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400.jpg",
+   "HTTP 404"
+  ],
+  [
+   "retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399.jpg",
+   "HTTP 404"
+  ],
+  [
+   "m.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399-300x225.jpg",
+   "HTTP 404"
+  ],
+  [
+   "m.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398-300x225.jpg",
+   "HTTP 404"
+  ],
+  [
+   "m.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400-300x225.jpg",
+   "HTTP 404"
+  ]
+ ],
+ "uyarilar": [],
+ "bitti": true
+}
