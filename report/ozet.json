@@ -1,0 +1,1258 @@
+{
+ "ok": true,
+ "site": "https://retina-gm.com",
+ "ips": [
+  "185.216.113.150"
+ ],
+ "ip_match": true,
+ "files": 1488,
+ "bytes": 393241639,
+ "categories": {
+  "diğer": 11,
+  "HTML sayfa": 159,
+  "görsel": 1226,
+  "doküman/arşiv": 5,
+  "CSS": 22,
+  "JS": 45,
+  "font": 19
+ },
+ "sitemap_total": 87,
+ "sitemap_missing": [],
+ "failed": {
+  "https://retina-gm.com/demo/wp-content/uploads/2016/08/IMG9425k.jpg": "HTTP 404",
+  "https://retina-gm.com/demo/wp-content/uploads/2016/08/ekip2.jpg": "HTTP 404",
+  "https://retina-gm.com/demo/wp-content/uploads/2016/08/lazer-fotok.jpg": "HTTP 404",
+  "https://retina-gm.com/hastaliklar/bebeklerde-goz-sulanmasi": "HTTP 404",
+  "https://retina-gm.com/hastaliklar/sari-leke-hastaligi": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024-1024x768.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400-300x225.jpg": "HTTP 404",
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400.jpg": "HTTP 404",
+  "https://retina-gm.com/temp/sitemap.xml": "HTTP 404",
+  "https://retina-gm.com/wp-content/themes/ark": "yönlendirme hedefi kopyalanmıyor: klasör adresi (dosya değil)"
+ },
+ "missing_refs": {
+  "https://retina-gm.com/demo/wp-content/uploads/2016/08/IMG9425k.jpg": [
+   "kadromuz/index.html"
+  ],
+  "https://retina-gm.com/demo/wp-content/uploads/2016/08/ekip2.jpg": [
+   "kadromuz/ekibimiz/index.html"
+  ],
+  "https://retina-gm.com/demo/wp-content/uploads/2016/08/lazer-fotok.jpg": [
+   "13-kultur-ve-bilim-sohbeti/index.html",
+   "basinda-biz/index.html",
+   "category/1/index.html"
+  ],
+  "https://retina-gm.com/hastaliklar/bebeklerde-goz-sulanmasi": [
+   "hastaliklar/index.html",
+   "tedaviler/index.html"
+  ],
+  "https://retina-gm.com/hastaliklar/sari-leke-hastaligi": [
+   "hastaliklar/index.html",
+   "tedaviler/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024-1024x768.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400-300x225.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400.jpg": [
+   "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html"
+  ],
+  "https://retina-gm.com/temp/sitemap.xml": [
+   "robots.txt"
+  ],
+  "https://retina-gm.com/wp-content/themes/ark": [
+   "1-retina-kultur-ve-bilim-sohbeti/index.html",
+   "10-kultur-ve-bilim-sohbeti/index.html",
+   "12-kultur-ve-bilim-sohbeti/index.html"
+  ]
+ },
+ "skipped": {
+  "dinamik uç (php / wp-admin / feed / api)": 382,
+  "sorgu parametreli sayfa": 85,
+  "şablon/desen (gerçek adres değil)": 4,
+  "klasör adresi (dosya değil)": 2,
+  "geçersiz yol": 1
+ },
+ "oversize": {},
+ "collisions": 0,
+ "flags": [],
+ "external_hosts": {
+  "fonts.googleapis.com": 318,
+  "www.googletagmanager.com": 318,
+  "www.google.com": 3,
+  "www.suleymankaynak.com": 1,
+  "maps.googleapis.com": 1,
+  "www.youtube.com": 18
+ },
+ "unknown_external_hosts": [],
+ "findings": [
+  {
+   "file": "wp-sitemap-posts-post-1.xml",
+   "pattern": "spam anahtar kelime",
+   "count": 1,
+   "sample": "an-kaynak-american-society-of-retina-specialists/</loc><lastmod>2017-08-24T12:23:13+03:00</lastmod></url><"
+  },
+  {
+   "file": "index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "index.html",
+   "pattern": "sj887po",
+   "count": 8,
+   "sample": "md-12 fg-text-light\"><div class=\"ffb-id-sj887po ff-slider slide carousel-slide fg-text-light\" id=\"sj887po\""
+  },
+  {
+   "file": "404.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/posts/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/uncategorized/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/general/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/new-folder/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/bookkeeping-2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/buitenlandse-online-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/buitenlandse-online-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "l-scale=1\"> <title>buitenlandse online casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "category/other/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/pari-pesa-in-z1/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/updates/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/reviews/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/blog/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/slots/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/plinko-casino1/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/plinko-casino1/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "width, initial-scale=1\"> <title>plinko casino1 &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <"
+  },
+  {
+   "file": "category/story/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/bez-rubriki/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/carsamba/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/carsamba/page/2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/sober-living/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/containers/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/pablic/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/articles/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "device-width, initial-scale=1\"> <title>casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "category/it-vakansii/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/a16z-generative-ai-2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/guide/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/1/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/game/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/anonymous/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/post/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/news/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/pinup/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/junemb/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/top/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/genel/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/genel/page/3/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/genel/page/2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/genel/page/2/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 3,
+   "sample": "an-kaynak-american-society-of-retina-specialists/\">Dr.Süleyman Kaynak , American Society of Retina Special"
+  },
+  {
+   "file": "category/bcgame-71/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/games/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/gambling/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/fairspin-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "category/fairspin-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "dth, initial-scale=1\"> <title>Fairspin-casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "category/misc/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "type/gallery/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "type/gallery/page/3/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "type/gallery/page/3/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 5,
+   "sample": "an-kaynak-american-society-of-retina-specialists/\">Dr.Süleyman Kaynak , American Society of Retina Special"
+  },
+  {
+   "file": "type/gallery/page/2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "type/gallery/page/4/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "type/image/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "2-retina-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "american-academy-of-ophthalmology-toplantisi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "basinda-biz/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "5-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "10-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/bitzamo/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/пинко-казино-онлайн/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/bitzamo-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/bitzamo-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "idth, initial-scale=1\"> <title>Bitzamo Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "tag/сайт-cat-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/сайт-cat-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "dth, initial-scale=1\"> <title>сайт Cat Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "tag/казино-онлайн-играть/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/emu-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/emu-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "ce-width, initial-scale=1\"> <title>Emu Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "tag/официальный-сайт-казино-cat-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/официальный-сайт-казино-cat-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "1\"> <title>официальный сайт казино Cat Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "tag/riobet/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/вход-на-сайт-казино-селектор/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/selector-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/selector-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "dth, initial-scale=1\"> <title>Selector Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "tag/пинко-официальный-сайт/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/селектор/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/казино-bitzamo/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/казино-r7/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/битзамо/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/казино-кэт/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/cat-casino/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/cat-casino/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 7,
+   "sample": "ce-width, initial-scale=1\"> <title>Cat Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m"
+  },
+  {
+   "file": "tag/риобет/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/селектор-казино/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tag/онлайн-казино-кэт/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kirgizistan-tcod-toplantisi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kirgizistan-tcod-toplantisi/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 1,
+   "sample": "an-kaynak-american-society-of-retina-specialists/\"><i class=\"sbicn-right-open-1\"></i></a> <div class="
+  },
+  {
+   "file": "37-turk-oftalmoloji-dernegi-nisan-kursu/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kvkk-aydinlatmametni/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "iv-ulusal-tip-hukuku-ve-tibbi-bilirkisilik-kongresi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "1-retina-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "goz-tansiyonu/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "52-duzenlenen-turk-oftalmoloji-dernegi-ulusal-kongresi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kisisel-veri-saklama-ve-imha-politikasi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "euretina/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "euretina/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 1,
+   "sample": "an-kaynak-american-society-of-retina-specialists/\"><i class=\"sbicn-left-open-1\"></i></a> <div class=\""
+  },
+  {
+   "file": "yeni-yili-kutladik/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "katarakt-2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "xxxv-escrs-toplantisi-lizbon/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "53-tod-ulusal-kongresi-6-11-kasim-2019-antalyada-yapildi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "author/admin/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "author/admin/page/3/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "author/admin/page/3/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 3,
+   "sample": "an-kaynak-american-society-of-retina-specialists/\">Dr.Süleyman Kaynak , American Society of Retina Special"
+  },
+  {
+   "file": "author/admin/page/2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "author/admin/page/4/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hastaliklar/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hastaliklar/retina-dekolmani/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hastaliklar/retina-dekolmani-2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hastaliklar/allerjik-goz-rahatsizliklari/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hastaliklar/yasa-bagli-makula-hastaligi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hastaliklar/sasilik/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "escrs-2026-londra-kongresinde-endoftalmi-kursu/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "prof-dr-suleyman-kaynak-10-nisan-13-00te-tv35te-canli-yayinda/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "gozluk-muayenesi-ve-refraksiyon-kusuru/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "cerez-politikasi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "etkinlikler/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "12-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "15-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "prof-dr-suleyman-kaynak-atinada-yapilan-alcon-innovative-technology-summit-2019-toplantisinda-3d-ameliyat-sistemleri-konusunda-konusma-yapmistir/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "galeri/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "op-dr-m-murat-caglayan/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "18-euretina-ve-36-escrs-kongreleri/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "14-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "retina-kultur-ve-bilim-sohbetleri/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "retina-kultur-ve-bilim-sohbetleri/index.html",
+   "pattern": "sj887po",
+   "count": 8,
+   "sample": "md-12 fg-text-light\"><div class=\"ffb-id-sj887po ff-slider slide carousel-slide fg-text-light\" id=\"sj887po\""
+  },
+  {
+   "file": "prof-dr-suleyman-kaynak-3-beyoglu-goz-gunleri-egitim-toplantisina-konusmaci-olarak-katildi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "nasil-yaslaniyoruz/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "floressein-anjiyografi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kisisel-verilerin-korunmasi-ve-islenmesi-politikasi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "haberler/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "haberler/page/3/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "haberler/page/3/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 3,
+   "sample": "an-kaynak-american-society-of-retina-specialists/\">Dr.Süleyman Kaynak , American Society of Retina Special"
+  },
+  {
+   "file": "haberler/page/2/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "haberler/page/4/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "ff-template/bizimle-iletisime-gecin/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "4-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "prof-dr-suleyman-kaynak-pragda-yapilan-beyond-2018-toplantisina-katildi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "ultrasonografi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "online-bilgi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "astigmatizma/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "17-karadeniz-oftalmolojik-toplulugu-kongresi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "75-aioc-the-platinum-jubilee-annual-conference-of-all-india-ophthalmological-society/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "25-27-mayis-tarihlerinde-ozbekistanda-yapilan-tcod-ozbekistan-uluslararasi-katarakt-ve-refraktif-cerrahi-kursu/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "51-turk-oftalmoloji-dernegi-toplantisi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "bulgarian-society-of-ophthalmology/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "saraybosna-balkan-oftalmoloji-toplantisi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "yunanistan-panhellenic-toplantisi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "tedaviler/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kvkk/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/sikca-sorulan-sorular/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/organizasyon-semasi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/hasta-haklari/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/kalite-politikamiz/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/retina-tv/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/misyon-vizyon-degerlerimiz/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "hakkimizda/anketler/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kadromuz/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kadromuz/ekibimiz/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kadromuz/prof-dr-suleyman-kaynak/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "3-retina-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "page-not-found/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "presbiyopi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "iletisim/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "goz-ici-lensi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "prof-dr-suleyman-kaynak-woc-2018-toplantisina-katilmak-icin-barselonaya-gitti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "gorus-ve-oneri-formu/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "ttb-ankara-meslekte-40-plaket-toreni/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "16-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "dr-suleyman-kaynak-american-society-of-retina-specialists/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "dr-suleyman-kaynak-american-society-of-retina-specialists/index.html",
+   "pattern": "spam anahtar kelime",
+   "count": 12,
+   "sample": " Kaynak , American Society of Retina Specialists &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> "
+  },
+  {
+   "file": "13-kultur-ve-bilim-sohbeti/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "katarakt/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "dokumanlar/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "kalite-birimi-organizasyon-semasi/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  },
+  {
+   "file": "takvim/index.html",
+   "pattern": "boyutsuz/gizli iframe",
+   "count": 1,
+   "sample": "le Tag Manager (noscript) --> <noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729\" height=\"0\" width=\"0\" style=\"d"
+  }
+ ],
+ "http_self_refs": 468,
+ "pages_not_in_sitemap": [
+  "https://retina-gm.com/author/admin/page/2/",
+  "https://retina-gm.com/author/admin/page/3/",
+  "https://retina-gm.com/author/admin/page/4/",
+  "https://retina-gm.com/category/carsamba/page/2/",
+  "https://retina-gm.com/category/genel/page/2/",
+  "https://retina-gm.com/category/genel/page/3/",
+  "https://retina-gm.com/haberler/page/2/",
+  "https://retina-gm.com/haberler/page/3/",
+  "https://retina-gm.com/haberler/page/4/",
+  "https://retina-gm.com/hastaliklar/retina-dekolmani/",
+  "https://retina-gm.com/hastaliklar/sasilik/",
+  "https://retina-gm.com/katarakt/",
+  "https://retina-gm.com/type/gallery/page/2/",
+  "https://retina-gm.com/type/gallery/page/3/",
+  "https://retina-gm.com/type/gallery/page/4/"
+ ]
+}

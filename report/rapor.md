@@ -1,0 +1,242 @@
+# retina-gm.com statik kopya raporu
+
+- Tarih: 2026-10-29 23:37 UTC, süre: 465 sn
+- Sitenin çözümlendiği IP: 185.216.113.150 (beklenen 185.216.113.150: EŞLEŞTİ)
+- Toplam: 1488 dosya, 375.0 MB
+- Türler: görsel 1226, HTML sayfa 159, JS 45, CSS 22, font 19, diğer 11, doküman/arşiv 5
+- Sunucu yanıtları: 200: 1491, 404: 28
+
+## Sitemap kontrolü
+Sitemap'lerde 87 adres var; 87 tanesi kopyalandı, 0 tanesi kopyalanamadı.
+
+## Çekilemeyen adresler (27)
+- https://retina-gm.com/demo/wp-content/uploads/2016/08/IMG9425k.jpg  ->  HTTP 404
+- https://retina-gm.com/demo/wp-content/uploads/2016/08/ekip2.jpg  ->  HTTP 404
+- https://retina-gm.com/demo/wp-content/uploads/2016/08/lazer-fotok.jpg  ->  HTTP 404
+- https://retina-gm.com/hastaliklar/bebeklerde-goz-sulanmasi  ->  HTTP 404
+- https://retina-gm.com/hastaliklar/sari-leke-hastaligi  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024-1024x768.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400-300x225.jpg  ->  HTTP 404
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400.jpg  ->  HTTP 404
+- https://retina-gm.com/temp/sitemap.xml  ->  HTTP 404
+- https://retina-gm.com/wp-content/themes/ark  ->  yönlendirme hedefi kopyalanmıyor: klasör adresi (dosya değil)
+
+## Sayfaların başvurduğu ama kopyada olmayan kaynaklar (27)
+- https://retina-gm.com/demo/wp-content/uploads/2016/08/IMG9425k.jpg  (HTTP 404)  <- 1 dosya, ör. kadromuz/index.html
+- https://retina-gm.com/demo/wp-content/uploads/2016/08/ekip2.jpg  (HTTP 404)  <- 1 dosya, ör. kadromuz/ekibimiz/index.html
+- https://retina-gm.com/demo/wp-content/uploads/2016/08/lazer-fotok.jpg  (HTTP 404)  <- 64 dosya, ör. 13-kultur-ve-bilim-sohbeti/index.html
+- https://retina-gm.com/hastaliklar/bebeklerde-goz-sulanmasi  (HTTP 404)  <- 2 dosya, ör. hastaliklar/index.html
+- https://retina-gm.com/hastaliklar/sari-leke-hastaligi  (HTTP 404)  <- 2 dosya, ör. hastaliklar/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024-1024x768.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-024.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-391.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-392.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-393.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-394.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-395.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-397.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-398.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-399.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400-300x225.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/old/wp-content/uploads/2014/08/San-Diego-2014-A%C4%9Fustos-400.jpg  (HTTP 404)  <- 1 dosya, ör. asrs-2014-annual-meeting-san-diego-amerikada-yapildi/index.html
+- https://retina-gm.com/temp/sitemap.xml  (HTTP 404)  <- 1 dosya, ör. robots.txt
+- https://retina-gm.com/wp-content/themes/ark  (yönlendirme hedefi kopyalanmıyor: klasör adresi (dosya değil))  <- 159 dosya, ör. 1-retina-kultur-ve-bilim-sohbeti/index.html
+
+## Bilerek kopyalanmayan dinamik adresler
+- dinamik uç (php / wp-admin / feed / api): 382 adres, ör. https://retina-gm.com/author/admin/feed/, https://retina-gm.com/category/1/feed/, https://retina-gm.com/category/2/feed/, https://retina-gm.com/category/a16z-generative-ai-2/feed/, https://retina-gm.com/category/anonymous/feed/
+- geçersiz yol: 1 adres, ör. https://retina-gm.com/wp-content/plugins/formcraft3/views/../assets/images/backgrounds/fibre.png
+- klasör adresi (dosya değil): 2 adres, ör. https://retina-gm.com/wp-content/plugins/formcraft3/assets/js/datepicker-lang/, https://retina-gm.com/wp-content/plugins/gtranslate/flags/
+- sorgu parametreli sayfa: 85 adres, ör. https://retina-gm.com/?p=12023, https://retina-gm.com/?p=12030, https://retina-gm.com/?p=12034, https://retina-gm.com/?p=12157, https://retina-gm.com/?p=1226
+- şablon/desen (gerçek adres değil): 4 adres, ör. https://retina-gm.com/wp-content/*, https://retina-gm.com/wp-content/plugins/*, https://retina-gm.com/wp-content/themes/ark/*, https://retina-gm.com/wp-content/uploads/*
+
+## Sayfaların dışarıdan yüklediği kaynaklar (script/css/iframe/görsel)
+- fonts.googleapis.com: link 318
+- www.googletagmanager.com: script 159, iframe 159
+- www.youtube.com: iframe 18
+- www.google.com: iframe 3
+- www.suleymankaynak.com: img 1  ⚠ tanınmayan
+- maps.googleapis.com: script 1
+
+## Dikkat: şüpheli kod belirtisi olan dosyalar (180)
+Bunlar otomatik tarama sonucudur; her biri zararlı demek değildir, bakılmalıdır.
+- `wp-sitemap-posts-post-1.xml`: spam anahtar kelime x1  |  an-kaynak-american-society-of-retina-specialists/</loc><lastmod>2017-08-24T12:23:13+03:00</lastmod></url><
+- `index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `index.html`: sj887po x8  |  md-12 fg-text-light"><div class="ffb-id-sj887po ff-slider slide carousel-slide fg-text-light" id="sj887po"
+- `404.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/posts/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/uncategorized/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/general/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/new-folder/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/bookkeeping-2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/buitenlandse-online-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/buitenlandse-online-casino/index.html`: spam anahtar kelime x7  |  l-scale=1"> <title>buitenlandse online casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `category/other/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/pari-pesa-in-z1/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/updates/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/reviews/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/blog/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/slots/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/plinko-casino1/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/plinko-casino1/index.html`: spam anahtar kelime x7  |  width, initial-scale=1"> <title>plinko casino1 &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <
+- `category/story/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/bez-rubriki/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/carsamba/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/carsamba/page/2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/sober-living/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/containers/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/pablic/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/articles/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/casino/index.html`: spam anahtar kelime x7  |  device-width, initial-scale=1"> <title>casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `category/it-vakansii/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/a16z-generative-ai-2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/guide/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/1/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/game/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/anonymous/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/post/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/news/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/pinup/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/junemb/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/top/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/genel/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/genel/page/3/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/genel/page/2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/genel/page/2/index.html`: spam anahtar kelime x3  |  an-kaynak-american-society-of-retina-specialists/">Dr.Süleyman Kaynak , American Society of Retina Special
+- `category/bcgame-71/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/games/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/gambling/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/fairspin-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `category/fairspin-casino/index.html`: spam anahtar kelime x7  |  dth, initial-scale=1"> <title>Fairspin-casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `category/misc/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `type/gallery/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `type/gallery/page/3/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `type/gallery/page/3/index.html`: spam anahtar kelime x5  |  an-kaynak-american-society-of-retina-specialists/">Dr.Süleyman Kaynak , American Society of Retina Special
+- `type/gallery/page/2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `type/gallery/page/4/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `type/image/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `2-retina-kultur-ve-bilim-sohbeti/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `american-academy-of-ophthalmology-toplantisi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `basinda-biz/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `5-kultur-ve-bilim-sohbeti/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `10-kultur-ve-bilim-sohbeti/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/bitzamo/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/пинко-казино-онлайн/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/bitzamo-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/bitzamo-casino/index.html`: spam anahtar kelime x7  |  idth, initial-scale=1"> <title>Bitzamo Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `tag/сайт-cat-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/сайт-cat-casino/index.html`: spam anahtar kelime x7  |  dth, initial-scale=1"> <title>сайт Cat Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `tag/казино-онлайн-играть/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/emu-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/emu-casino/index.html`: spam anahtar kelime x7  |  ce-width, initial-scale=1"> <title>Emu Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `tag/официальный-сайт-казино-cat-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/официальный-сайт-казино-cat-casino/index.html`: spam anahtar kelime x7  |  1"> <title>официальный сайт казино Cat Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `tag/riobet/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/вход-на-сайт-казино-селектор/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/selector-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/selector-casino/index.html`: spam anahtar kelime x7  |  dth, initial-scale=1"> <title>Selector Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `tag/пинко-официальный-сайт/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/селектор/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/казино-bitzamo/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/казино-r7/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/битзамо/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/казино-кэт/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/cat-casino/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/cat-casino/index.html`: spam anahtar kelime x7  |  ce-width, initial-scale=1"> <title>Cat Casino &#8211; Özel Retina Göz Hastalıkları Tıp Merkezi</title> <m
+- `tag/риобет/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/селектор-казино/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `tag/онлайн-казино-кэт/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `kirgizistan-tcod-toplantisi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `kirgizistan-tcod-toplantisi/index.html`: spam anahtar kelime x1  |  an-kaynak-american-society-of-retina-specialists/"><i class="sbicn-right-open-1"></i></a> <div class=
+- `37-turk-oftalmoloji-dernegi-nisan-kursu/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `kvkk-aydinlatmametni/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `iv-ulusal-tip-hukuku-ve-tibbi-bilirkisilik-kongresi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `1-retina-kultur-ve-bilim-sohbeti/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `goz-tansiyonu/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `52-duzenlenen-turk-oftalmoloji-dernegi-ulusal-kongresi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `kisisel-veri-saklama-ve-imha-politikasi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `euretina/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `euretina/index.html`: spam anahtar kelime x1  |  an-kaynak-american-society-of-retina-specialists/"><i class="sbicn-left-open-1"></i></a> <div class="
+- `yeni-yili-kutladik/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `katarakt-2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `xxxv-escrs-toplantisi-lizbon/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `53-tod-ulusal-kongresi-6-11-kasim-2019-antalyada-yapildi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `author/admin/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `author/admin/page/3/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `author/admin/page/3/index.html`: spam anahtar kelime x3  |  an-kaynak-american-society-of-retina-specialists/">Dr.Süleyman Kaynak , American Society of Retina Special
+- `author/admin/page/2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `author/admin/page/4/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `hastaliklar/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `hastaliklar/retina-dekolmani/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `hastaliklar/retina-dekolmani-2/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `hastaliklar/allerjik-goz-rahatsizliklari/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `hastaliklar/yasa-bagli-makula-hastaligi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `hastaliklar/sasilik/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `escrs-2026-londra-kongresinde-endoftalmi-kursu/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `prof-dr-suleyman-kaynak-10-nisan-13-00te-tv35te-canli-yayinda/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `gozluk-muayenesi-ve-refraksiyon-kusuru/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `cerez-politikasi/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `etkinlikler/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+- `12-kultur-ve-bilim-sohbeti/index.html`: boyutsuz/gizli iframe x1  |  le Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PC5KL729" height="0" width="0" style="d
+
+- HTML dosyalarında `http://retina-gm.com` ile başlayan kendi adres başvurusu: 468
+
+## Sitemap'te olmayıp bağlantılardan bulunan sayfalar (15)
+- https://retina-gm.com/author/admin/page/2/
+- https://retina-gm.com/author/admin/page/3/
+- https://retina-gm.com/author/admin/page/4/
+- https://retina-gm.com/category/carsamba/page/2/
+- https://retina-gm.com/category/genel/page/2/
+- https://retina-gm.com/category/genel/page/3/
+- https://retina-gm.com/haberler/page/2/
+- https://retina-gm.com/haberler/page/3/
+- https://retina-gm.com/haberler/page/4/
+- https://retina-gm.com/hastaliklar/retina-dekolmani/
+- https://retina-gm.com/hastaliklar/sasilik/
+- https://retina-gm.com/katarakt/
+- https://retina-gm.com/type/gallery/page/2/
+- https://retina-gm.com/type/gallery/page/3/
+- https://retina-gm.com/type/gallery/page/4/
+
+## En büyük dosyalar
+- 8.0 MB  wp-content/uploads/2019/02/20190206_191129.jpg
+- 7.4 MB  wp-content/uploads/2019/02/20190206_181140.jpg
+- 6.5 MB  wp-content/uploads/2017/08/IMG_1013.jpg
+- 5.8 MB  wp-content/uploads/2018/04/20180411_183508.jpg
+- 5.7 MB  wp-content/uploads/2018/04/20180411_185753.jpg
+- 5.4 MB  wp-content/uploads/2017/08/IMG_0361.jpg
+- 5.4 MB  wp-content/uploads/2017/05/Resim-139.jpg
+- 5.4 MB  wp-content/uploads/2017/05/sofya-383.jpg
+- 5.4 MB  wp-content/uploads/2018/04/20180411_184428.jpg
+- 5.3 MB  wp-content/uploads/2017/05/Resim-263.jpg
+- 5.2 MB  wp-content/uploads/2017/05/Resim-262.jpg
+- 5.2 MB  wp-content/uploads/2017/05/Resim-262-1.jpg
+- 5.2 MB  wp-content/uploads/2018/04/20180411_185816.jpg
+- 5.1 MB  wp-content/uploads/2018/04/20180411_183457.jpg
+- 5.1 MB  wp-content/uploads/2018/04/20180411_185821.jpg
