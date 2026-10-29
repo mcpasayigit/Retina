@@ -1,10 +1,10 @@
 # retina-gm.com statik kopya raporu
 
-- Tarih: 2026-10-29 23:37 UTC, süre: 465 sn
+- Tarih: 2026-10-29 23:55 UTC, süre: 462 sn
 - Sitenin çözümlendiği IP: 185.216.113.150 (beklenen 185.216.113.150: EŞLEŞTİ)
-- Toplam: 1488 dosya, 375.0 MB
-- Türler: görsel 1226, HTML sayfa 159, JS 45, CSS 22, font 19, diğer 11, doküman/arşiv 5
-- Sunucu yanıtları: 200: 1491, 404: 28
+- Toplam: 1505 dosya, 375.1 MB
+- Türler: görsel 1242, HTML sayfa 159, JS 45, CSS 23, font 19, diğer 11, doküman/arşiv 5
+- Sunucu yanıtları: 200: 1508, 404: 28
 
 ## Sitemap kontrolü
 Sitemap'lerde 87 adres var; 87 tanesi kopyalandı, 0 tanesi kopyalanamadı.
@@ -68,11 +68,15 @@ Sitemap'lerde 87 adres var; 87 tanesi kopyalandı, 0 tanesi kopyalanamadı.
 - https://retina-gm.com/wp-content/themes/ark  (yönlendirme hedefi kopyalanmıyor: klasör adresi (dosya değil))  <- 159 dosya, ör. 1-retina-kultur-ve-bilim-sohbeti/index.html
 
 ## Bilerek kopyalanmayan dinamik adresler
-- dinamik uç (php / wp-admin / feed / api): 382 adres, ör. https://retina-gm.com/author/admin/feed/, https://retina-gm.com/category/1/feed/, https://retina-gm.com/category/2/feed/, https://retina-gm.com/category/a16z-generative-ai-2/feed/, https://retina-gm.com/category/anonymous/feed/
-- geçersiz yol: 1 adres, ör. https://retina-gm.com/wp-content/plugins/formcraft3/views/../assets/images/backgrounds/fibre.png
+- dinamik uç (php / wp-admin / feed / api): 380 adres, ör. https://retina-gm.com/author/admin/feed/, https://retina-gm.com/category/1/feed/, https://retina-gm.com/category/2/feed/, https://retina-gm.com/category/a16z-generative-ai-2/feed/, https://retina-gm.com/category/anonymous/feed/
 - klasör adresi (dosya değil): 2 adres, ör. https://retina-gm.com/wp-content/plugins/formcraft3/assets/js/datepicker-lang/, https://retina-gm.com/wp-content/plugins/gtranslate/flags/
 - sorgu parametreli sayfa: 85 adres, ör. https://retina-gm.com/?p=12023, https://retina-gm.com/?p=12030, https://retina-gm.com/?p=12034, https://retina-gm.com/?p=12157, https://retina-gm.com/?p=1226
 - şablon/desen (gerçek adres değil): 4 adres, ör. https://retina-gm.com/wp-content/*, https://retina-gm.com/wp-content/plugins/*, https://retina-gm.com/wp-content/themes/ark/*, https://retina-gm.com/wp-content/uploads/*
+
+## Boş (0 bayt) gelen dosyalar (2)
+Sunucu bunları boş döndürdü; kaynak sitede de boş olabilir (bozuk yükleme).
+- https://retina-gm.com/wp-content/uploads/2019/02/20190206_195330-e1549571938269.jpg  {"Content-Length": "0", "Content-Type": "image/jpeg", "Last-Modified": "Thu, 30 Jul 2026 12:40:26 GMT"}
+- https://retina-gm.com/wp-content/uploads/2019/02/20190206_195508-e1549571889560.jpg  {"Content-Length": "0", "Content-Type": "image/jpeg", "Last-Modified": "Thu, 30 Jul 2026 12:40:26 GMT"}
 
 ## Sayfaların dışarıdan yüklediği kaynaklar (script/css/iframe/görsel)
 - fonts.googleapis.com: link 318

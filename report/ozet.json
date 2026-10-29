@@ -5,14 +5,14 @@
   "185.216.113.150"
  ],
  "ip_match": true,
- "files": 1488,
- "bytes": 393241639,
+ "files": 1505,
+ "bytes": 393268505,
  "categories": {
   "diğer": 11,
   "HTML sayfa": 159,
-  "görsel": 1226,
+  "görsel": 1242,
   "doküman/arşiv": 5,
-  "CSS": 22,
+  "CSS": 23,
   "JS": 45,
   "font": 19
  },
@@ -137,11 +137,22 @@
   ]
  },
  "skipped": {
-  "dinamik uç (php / wp-admin / feed / api)": 382,
+  "dinamik uç (php / wp-admin / feed / api)": 380,
   "sorgu parametreli sayfa": 85,
   "şablon/desen (gerçek adres değil)": 4,
-  "klasör adresi (dosya değil)": 2,
-  "geçersiz yol": 1
+  "klasör adresi (dosya değil)": 2
+ },
+ "empty_files": {
+  "https://retina-gm.com/wp-content/uploads/2019/02/20190206_195330-e1549571938269.jpg": {
+   "Content-Length": "0",
+   "Content-Type": "image/jpeg",
+   "Last-Modified": "Thu, 30 Jul 2026 12:40:26 GMT"
+  },
+  "https://retina-gm.com/wp-content/uploads/2019/02/20190206_195508-e1549571889560.jpg": {
+   "Content-Length": "0",
+   "Content-Type": "image/jpeg",
+   "Last-Modified": "Thu, 30 Jul 2026 12:40:26 GMT"
+  }
  },
  "oversize": {},
  "collisions": 0,
