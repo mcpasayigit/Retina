@@ -1,0 +1,1 @@
+sitemap:http://retina-gm.com/temp/sitemap.xml
