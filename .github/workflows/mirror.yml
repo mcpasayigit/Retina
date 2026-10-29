@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - scripts/mirror.py
+      - scripts/commit_chunks.py
       - .github/workflows/mirror.yml
 
 permissions:
@@ -22,7 +23,7 @@ concurrency:
 jobs:
   mirror:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
 
@@ -30,26 +31,22 @@ jobs:
         env:
           SITE_URL: ${{ github.event.inputs.site_url || 'https://retina-gm.com' }}
           EXPECT_IP: "185.216.113.150"
-        run: python3 scripts/mirror.py
+          WORKERS: "12"
+          DELAY: "0.02"
+          MAX_SECONDS: "10800"
+          MAX_PAGES: "3000"
+          PROGRESS_PUSH: "1"
+          PROGRESS_EVERY: "45"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/mirror.py
 
       - name: Repoya kaydet
         if: always()
         run: |
-          mkdir -p site report
-          du -sh site || true
-          find site -type f -size +95M -print || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          KB=$(du -sk site | cut -f1)
-          if [ "$KB" -gt 1200000 ]; then
-            echo "::error::site/ klasörü $((KB/1024)) MB, repoya yazılmadı (yalnızca rapor kaydedildi)"
-            git add -A report
-          else
-            git add -A site report
-          fi
-          if git diff --cached --quiet; then
-            echo "Değişiklik yok"
-          else
-            git commit -m "retina-gm.com kopyası $(date -u '+%Y-%m-%d %H:%M') UTC"
-            git push
-          fi
+          mkdir -p site report
+          du -sh site || true
+          python3 scripts/commit_chunks.py

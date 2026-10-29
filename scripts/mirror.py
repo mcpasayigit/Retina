@@ -29,7 +29,9 @@ import posixpath
 import re
 import shutil
 import socket
+import subprocess
 import sys
+import tempfile
 import threading
 import time
 import urllib.error
@@ -50,6 +52,10 @@ DELAY = float(os.environ.get("DELAY", "0.15"))
 TIMEOUT = int(os.environ.get("TIMEOUT", "45"))
 MAX_FILE = int(os.environ.get("MAX_FILE_BYTES", str(95 * 1024 * 1024)))
 MAX_URLS = int(os.environ.get("MAX_URLS", "20000"))
+MAX_PAGES = int(os.environ.get("MAX_PAGES", "3000"))          # HTML sayfa üst sınırı (sonsuz takvim vb. için)
+MAX_SECONDS = int(os.environ.get("MAX_SECONDS", "0"))         # 0 = sınırsız; dolunca yeni adres alınmaz, rapor yazılır
+PROGRESS_PUSH = os.environ.get("PROGRESS_PUSH", "") == "1"    # ilerlemeyi 'progress' dalına gönder
+PROGRESS_EVERY = int(os.environ.get("PROGRESS_EVERY", "60"))
 EXPECT_IP = os.environ.get("EXPECT_IP", "").strip()
 PARSE_MAX = 8 * 1024 * 1024
 
@@ -97,6 +103,11 @@ rest_known = set()              # REST API'nin listelediği adresler
 collisions = []
 oversize = {}
 flags = {}
+stats = {"bytes": 0, "pages": 0}
+status_counter = Counter()      # HTTP durum kodu / hata türü -> sayı
+recent = deque(maxlen=12)       # son kaydedilenler (ilerleme raporu için)
+qstate = {"queue": 0, "inflight": 0, "done": 0}
+T0 = time.time()
 
 
 def unq(s):
@@ -124,6 +135,10 @@ def plan(c):
     path = unq(s.path)
     if SKIP_RE.search(path):
         return None, "dinamik uç (php / wp-admin / feed / api)"
+    if any(ch in path for ch in "*{}<>|^`\\"):
+        return None, "şablon/desen (gerçek adres değil)"
+    if path.startswith(("/wp-content/", "/wp-includes/")) and path.endswith("/"):
+        return None, "klasör adresi (dosya değil)"
     segs = [x for x in path.split("/") if x]
     if any(x in (".", "..") for x in segs):
         return None, "geçersiz yol"
@@ -397,6 +412,11 @@ def register(c, src):
         if len(seen) >= MAX_URLS:
             flags["MAX_URLS sınırına ulaşıldı"] = True
             return None
+        if not task[2]:                      # dosya değil, sayfa
+            if stats["pages"] >= MAX_PAGES:
+                flags["MAX_PAGES sınırına ulaşıldı (yeni sayfalar alınmadı)"] = True
+                return None
+            stats["pages"] += 1
         seen.add(key)
     return task
 
@@ -419,13 +439,21 @@ def write(rel, data, key):
                 collisions.append((rel, key))
             return
         written[rel] = sha
+    tmp = full + ".indiriliyor"
     try:
         os.makedirs(os.path.dirname(full), exist_ok=True)
-        with open(full, "wb") as f:
+        with open(tmp, "wb") as f:
             f.write(data)
+        os.replace(tmp, full)                # yarım dosya kalmasın
+        with lock:
+            stats["bytes"] += len(data)
     except OSError:
         with lock:
             written.pop(rel, None)
+        try:
+            os.remove(tmp)
+        except OSError:
+            pass
         raise
 
 
@@ -433,7 +461,10 @@ def handle(task):
     key, fetch_url, _asset = task
     if DELAY:
         time.sleep(DELAY)
+    t_start = time.time()
     r = fetch(fetch_url)
+    with lock:
+        status_counter[r["status"] if not r.get("error") else "hata: " + r["error"][:40]] += 1
     if r.get("error"):
         return fail(key, r["error"])
     if r["status"] != 200:
@@ -466,6 +497,7 @@ def handle(task):
             write(rel_final, body, fkey)
             with lock:
                 results[fkey] = dict(file=rel_final, bytes=len(body), sha256=sha, type=ctype)
+                recent.append((fkey[-90:], len(body), round(time.time() - t_start, 1)))
         if rel_orig != rel_final:
             write(rel_orig, stub(fkey) if is_html else body, key)
             with lock:
@@ -499,12 +531,16 @@ def crawl(seed_urls):
     futures, done_n = {}, 0
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         while tasks or futures:
+            if MAX_SECONDS and tasks and time.time() - T0 > MAX_SECONDS:
+                flags["zaman sınırı doldu (%d sn); kuyrukta %d adres alınmadan kaldı" % (MAX_SECONDS, len(tasks))] = True
+                tasks.clear()
             while tasks and len(futures) < WORKERS * 3:
                 t = tasks.popleft()
                 futures[ex.submit(handle, t)] = t
             if not futures:
                 break
-            done, _ = wait(list(futures), return_when=FIRST_COMPLETED)
+            qstate.update(queue=len(tasks), inflight=len(futures), done=done_n)
+            done, _ = wait(list(futures), timeout=5, return_when=FIRST_COMPLETED)
             for f in done:
                 t = futures.pop(f)
                 try:
@@ -514,8 +550,9 @@ def crawl(seed_urls):
                 tasks.extend(new or [])
                 done_n += 1
                 if done_n % 200 == 0:
-                    print("  ... %d adres işlendi, %d dosya, kuyruk %d" % (done_n, len(written), len(tasks)),
-                          flush=True)
+                    print("  ... %d adres işlendi, %d dosya, %.0f MB, kuyruk %d" %
+                          (done_n, len(written), stats["bytes"] / 1048576.0, len(tasks)), flush=True)
+    qstate.update(queue=0, inflight=0, done=done_n)
 
 
 def rest_seeds():
@@ -672,6 +709,7 @@ def build_report(t0, ips, home_ok):
             cat["diğer"] += 1
     add("- Toplam: %d dosya, %s" % (len(written), mb(total)))
     add("- Türler: " + ", ".join("%s %d" % (k, v) for k, v in cat.most_common()))
+    add("- Sunucu yanıtları: " + ", ".join("%s: %d" % kv for kv in status_counter.most_common(10)))
     ozet.update(files=len(written), bytes=total, categories=dict(cat))
 
     sm = sitemap_urls()
@@ -774,6 +812,61 @@ def build_report(t0, ips, home_ok):
     return "\n".join(L) + "\n", ozet
 
 
+# --------------------------------------------------------------------------- ilerleme
+def snapshot(final=False):
+    """Şu anki durumun kısa özeti (Actions günlüğüne erişemediğimde buradan izliyorum)."""
+    with lock:
+        d = {
+            "saat": datetime.now(timezone.utc).strftime("%H:%M:%S UTC"),
+            "gecen_sn": int(time.time() - T0),
+            "dosya": len(written),
+            "mb": round(stats["bytes"] / 1048576.0, 1),
+            "sayfa": stats["pages"],
+            "kuyruk": qstate["queue"],
+            "calisan": qstate["inflight"],
+            "islenen": qstate["done"],
+            "basarisiz": len(failed),
+            "yanitlar": {str(k): v for k, v in status_counter.most_common(8)},
+            "son_kaydedilen": [list(x) for x in list(recent)[-6:]],
+            "son_basarisiz": [[k[-80:], str(v)[:80]] for k, v in list(failed.items())[-6:]],
+            "uyarilar": list(flags),
+            "bitti": bool(final),
+        }
+    return d
+
+
+def push_progress(d):
+    """İlerleme dosyasını 'progress' dalına gönderir (ana dala dokunmaz, çalışma klasörünü değiştirmez)."""
+    if not PROGRESS_PUSH:
+        return
+    try:
+        path = os.path.join(tempfile.gettempdir(), "mirror_progress.json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, indent=1)
+        env = dict(os.environ, GIT_AUTHOR_NAME="mirror-bot", GIT_COMMITTER_NAME="mirror-bot",
+                   GIT_AUTHOR_EMAIL="bot@users.noreply.github.com",
+                   GIT_COMMITTER_EMAIL="bot@users.noreply.github.com")
+
+        def git(*a, inp=None):
+            return subprocess.run(["git", *a], input=inp, env=env, capture_output=True, text=True,
+                                  timeout=90, check=True).stdout.strip()
+
+        blob = git("hash-object", "-w", path)
+        tree = git("mktree", inp="100644 blob %s\tprogress.json\n" % blob)
+        commit = git("commit-tree", tree, "-m", "ilerleme %s" % d["saat"])
+        git("push", "-f", "origin", "%s:refs/heads/progress" % commit)
+    except Exception as e:    # ilerleme gönderilemese de indirme sürsün
+        print("  (ilerleme gönderilemedi: %s)" % str(e)[:150], flush=True)
+
+
+def progress_loop(stop):
+    while not stop.wait(PROGRESS_EVERY):
+        d = snapshot()
+        print("  [ilerleme] %(gecen_sn)s sn, %(dosya)s dosya, %(mb)s MB, kuyruk %(kuyruk)s, "
+              "başarısız %(basarisiz)s" % d, flush=True)
+        push_progress(d)
+
+
 # --------------------------------------------------------------------------- ana akış
 def main():
     t0 = time.time()
@@ -806,7 +899,12 @@ def main():
     rest_known.update(c for c in (canon(u) for u in rest) if c)
     seeds += rest
     print("Tarama başlıyor (%d başlangıç adresi)" % len(seeds), flush=True)
-    crawl(seeds)
+    stop = threading.Event()
+    threading.Thread(target=progress_loop, args=(stop,), daemon=True).start()
+    try:
+        crawl(seeds)
+    finally:
+        stop.set()
 
     nf = os.path.join(OUT, "page-not-found", "index.html")
     if os.path.isfile(nf):
@@ -823,6 +921,7 @@ def main():
         json.dump(ozet, f, ensure_ascii=False, indent=1)
 
     print("\n" + text, flush=True)
+    push_progress(snapshot(final=True))
     sys.exit(0 if len(written) >= 5 else 2)
 
 
