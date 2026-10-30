@@ -88,6 +88,13 @@ def fetch_retry(cfg, path, host=None, scheme="https", tries=3):
     return None, {}, b"", err
 
 
+def annot(level, title, msg):
+    """GitHub Actions ekranında görünen kısa not (notice / warning / error)."""
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        msg = msg.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+        print("::%s title=%s::%s" % (level, title, msg))
+
+
 def type_ok(expected, got):
     e = (expected or "").split(";")[0].strip().lower()
     g = (got or "").split(";")[0].strip().lower()
@@ -250,6 +257,14 @@ def main():
                                  else ("TAMAM (yalnızca örnek denendi)" if not problems and not bad_behav else "SORUN VAR")))
     text = "\n".join(L)
     print(text)
+    for name, ok, detail in behav:
+        annot("notice" if ok else "error", "Kontrol", "%s: %s (%s)" % ("TAMAM" if ok else "SORUN", name, detail))
+    for k, u, d in problems[:max(0, 9 - len(bad_behav))]:
+        annot("error", "Dosya", "%s %s: %s" % (k, u, d))
+    for _k, u, d in warnings[:3]:
+        annot("warning", "Uyari", "%s: %s" % (u, d))
+    annot("notice", "Sonuc", "%d/%d dosya tamam, davranis %d/%d tamam, %.0f sn" % (
+        ok_n, len(items), len(behav) - len(bad_behav), len(behav), secs))
     summ = os.environ.get("GITHUB_STEP_SUMMARY")
     if summ:
         with open(summ, "a", encoding="utf-8") as f:
