@@ -1,0 +1,61 @@
+name: Sunucu tanısı
+
+# Verilen IP'deki sunucunun kim olduğunu ve verilen alan adı için ne yanıt verdiğini gösterir.
+# Yalnızca okur; sonuç çalıştırmanın Annotations bölümünde listelenir.
+on:
+  workflow_dispatch:
+    inputs:
+      ip:
+        description: Sunucu IP adresi
+        required: true
+      host:
+        description: Alan adı
+        required: false
+        default: retina-gm.com
+
+permissions:
+  contents: read
+
+jobs:
+  tani:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      IP: ${{ github.event.inputs.ip }}
+      HOST: ${{ github.event.inputs.host || 'retina-gm.com' }}
+    steps:
+      - name: Tanı
+        run: |
+          set +e
+          [[ "$IP" =~ ^[0-9.]+$ ]] || { echo "Geçersiz IP"; exit 1; }
+          [[ "$HOST" =~ ^[a-z0-9.-]+$ ]] || { echo "Geçersiz alan adı"; exit 1; }
+          command -v dig >/dev/null || sudo apt-get install -y -qq dnsutils >/dev/null
+          ann() {
+            local t="$1" m
+            m="$(cat | tr -c '[:print:]\n\t' '.')"
+            m="${m//'%'/'%25'}"; m="${m//$'\n'/'%0A'}"
+            printf '::notice title=%s::%s\n' "$t" "$m"
+          }
+          cert() { echo | timeout 15 openssl s_client -connect "$1" ${2:+-servername "$2"} 2>/dev/null \
+                     | openssl x509 -noout -subject -issuer -dates -ext subjectAltName 2>/dev/null; }
+
+          echo "Ters DNS (PTR): $(dig +short -x "$IP" | tr '\n' ' ')" | ann "Ters DNS"
+
+          for p in 21 22 25 80 443 2083 2087; do
+            if timeout 4 bash -c "exec 3<>/dev/tcp/$IP/$p" 2>/dev/null; then echo -n "$p açık; "; else echo -n "$p kapalı; "; fi
+          done | ann "Portlar"
+
+          cert "$IP:443" "$HOST" | ann "Sertifika 443 (SNI=$HOST)"
+          cert "$IP:443"         | ann "Sertifika 443 (SNI yok)"
+          cert "$IP:2083"        | ann "Sertifika 2083 (cPanel)"
+          cert "$IP:2087"        | ann "Sertifika 2087 (WHM)"
+
+          curl -s -m 20 -D /tmp/h1 -o /tmp/b1 -H "Host: $HOST" "http://$IP/"
+          { head -15 /tmp/h1; echo "--- gövde ($(wc -c < /tmp/b1) bayt):"; head -c 500 /tmp/b1; } | ann "http://$HOST/ (IP'ye)"
+          curl -sk -m 20 -D /tmp/h2 -o /tmp/b2 --resolve "$HOST:443:$IP" "https://$HOST/"
+          { head -15 /tmp/h2; echo "--- gövde ($(wc -c < /tmp/b2) bayt):"; head -c 500 /tmp/b2; } | ann "https://$HOST/ (IP'ye)"
+          curl -sk -m 20 -D /tmp/h3 -o /tmp/b3 "https://$IP/"
+          { head -15 /tmp/h3; echo "--- gövde ($(wc -c < /tmp/b3) bayt):"; head -c 500 /tmp/b3; } | ann "https://IP/ (alan adı olmadan)"
+          for path in /kadromuz/ /robots.txt /404.html; do
+            curl -sk -m 20 -o /dev/null -w '%{http_code} %{size_download} bayt %{content_type}\n' --resolve "$HOST:443:$IP" "https://$HOST$path"
+          done | ann "Örnek adresler (/kadromuz/ /robots.txt /404.html)"
