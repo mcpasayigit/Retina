@@ -13,11 +13,6 @@ on:
         description: Alan adı
         required: false
         default: retina-gm.com
-  push:
-    branches: [main]
-    paths:
-      - scripts/verify_live.py
-      - .github/workflows/canli-kontrol.yml
 
 permissions:
   contents: read
@@ -29,8 +24,7 @@ jobs:
     env:
       HOST: ${{ github.event.inputs.host || 'retina-gm.com' }}
       IP: ${{ github.event.inputs.ip }}
-      # betik ya da iş akışı değişince kendiliğinden çalışırsa yalnızca örnek bir kısmı denenir
-      LIMIT: ${{ github.event_name == 'push' && '150' || '0' }}
+      LIMIT: "0"
     steps:
       - uses: actions/checkout@v4
         with:
